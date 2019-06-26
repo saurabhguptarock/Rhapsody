@@ -5,8 +5,10 @@ html {
   height: 100%;
   width: 100%;
   overflow-x: hidden;
-  background-color: #77aa77;
+}
+#top {
   font-family: "Poppins", sans-serif;
+  background-color: #77aa77;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 2 1'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='1'%3E%3Cstop offset='0' stop-color='%2377aa77'/%3E%3Cstop offset='1' stop-color='%234fd'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23cf8' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23cf8' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='c' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='2' y2='2'%3E%3Cstop offset='0' stop-color='%23cf8' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23cf8' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='2' height='1'/%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23b)' points='0 1 0 0 2 0'/%3E%3Cpolygon fill='url(%23c)' points='2 1 2 0 0 0'/%3E%3C/g%3E%3C/svg%3E");
   background-attachment: fixed;
   background-size: cover;
@@ -25,15 +27,78 @@ li {
   .main-img {
     left: 0;
   }
+  .deo {
+    height: 280px;
+  }
+  #top {
+    height: 150vh;
+  }
+  .demo {
+    margin-top: 20px;
+  }
+  #pad-btn {
+    padding: 100px 0px 0px 0px;
+  }
+  .search-box {
+    top: 70%;
+    left: 20%;
+  }
+  .foo {
+    height: 150vh;
+    padding-top: 50px;
+  }
+}
+.foo {
+  background-color: #25bec9;
 }
 @media (min-width: 900px) {
   #lists {
     padding-left: 300px;
   }
+  .deo {
+    height: 400px;
+  }
+  .demo {
+    margin-top: 100px;
+    text-align: left;
+  }
+  #top {
+    height: 95vh;
+  }
+  #pad-btn {
+    padding: 100px 200px 0px 200px;
+  }
+  .search-box {
+    top: 60%;
+    left: 40%;
+  }
+  .foo {
+    height: 500px;
+    padding-top: 150px;
+  }
+}
+.textas {
+  text-align: left;
 }
 .button,
 .button:hover {
   color: #02aaf0;
+}
+.actives {
+  border: 2px solid #0ec60a;
+  background-color: #0ec60a;
+  color: white;
+}
+.actives:hover {
+  color: white;
+}
+.buttons {
+  border: 2px solid #0ec60a;
+  color: #0ec60a;
+}
+.buttons:hover {
+  background-color: #0ec60a;
+  color: white;
 }
 .main-img {
   height: 550px;
@@ -42,4 +107,58 @@ li {
 }
 h1 {
   font-size: 44px;
+}
+.news {
+  height: 80vh;
+  background-color: #77aa77;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 2 1'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='1'%3E%3Cstop offset='0' stop-color='%2377aa77'/%3E%3Cstop offset='1' stop-color='%234fd'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23cf8' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23cf8' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='c' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='2' y2='2'%3E%3Cstop offset='0' stop-color='%23cf8' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23cf8' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='2' height='1'/%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23b)' points='0 1 0 0 2 0'/%3E%3Cpolygon fill='url(%23c)' points='2 1 2 0 0 0'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: cover;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.search-box:hover .search-txt {
+  width: 240px;
+  padding: 0 6px;
+}
+
+.search-box:hover .search-btn {
+  background: white;
+}
+
+.search-box {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background: #2f3640;
+  height: 60px;
+  border-radius: 40px;
+  padding: 10px;
+}
+
+.search-btn {
+  color: #e84118;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #2f3640;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+
+.search-txt {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: white;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0;
 }
