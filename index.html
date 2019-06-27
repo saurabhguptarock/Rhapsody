@@ -20,11 +20,10 @@
   <body>
     <div id="top">
       <nav
-        id="nav-bar"
-        class="navbar navbar-expand-lg navbar-dark animated fadeInDown "
+        class="navbar navbar-expand-lg navbar-dark white fixed-top animated fadeInDown "
       >
         <button
-          class="navbar-toggler"
+          class="navbar-toggler black"
           type="button"
           data-toggle="collapse"
           data-target="#navbarTogglerDemo01"
@@ -32,7 +31,7 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon black-text"></span>
+          <span class="navbar-toggler-icon"></span>
         </button>
         <div class="container">
           <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
@@ -41,41 +40,43 @@
             </div>
             <ul id="lists" class="navbar-nav  mr-auto mt-lg-0">
               <li class="nav-item">
-                <a class="nav-link white-text" href="/">Home </a>
+                <a class="nav-link black-text" href="/">Home </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link white-text" href="/tools/rcam.html">RCAM</a>
+                <a class="nav-link black-text" href="/tools/rcam.html">RCAM</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link white-text" href="/tools/xbrl.html">XBRL</a>
+                <a class="nav-link black-text" href="/tools/xbrl.html">XBRL</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link white-text" href="/tools/INDAsOnline.html"
+                <a class="nav-link black-text" href="/tools/INDAsOnline.html"
                   >IndASOnline</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link white-text" href="/achievements.html"
+                <a class="nav-link black-text" href="/achievements.html"
                   >Achievements</a
                 >
               </li>
             </ul>
+            <div class="logo">
+              <img height="40px" src="assets/images/lets-refigure.png" />
+            </div>
           </div>
         </div>
       </nav>
-      <div class="white-text pt-5">
+      <div class="white-text" id="rhap">
         <div class="container text-center">
           <div class="row">
-            <div class="col-sm-4 animated fadeInUp">
+            <div
+              class="col-sm-4 animated fadeInUp black-text"
+              style="text-align: left"
+            >
               <h1>
                 Rhapsody
               </h1>
               <h4>Applications</h4>
               <h4>and Solutions</h4>
-              <div class="pt-5"></div>
-              <button class="btn rounded white button">
-                Get Started
-              </button>
             </div>
             <div class="col-sm-8">
               <img class="main-img" src="assets/images/dashboard_full_1.webp" />
@@ -89,77 +90,81 @@
     <div>
       <div class="container">
         <div class="text-center demo">
-          <h6 style="font-family: 'Poppins', sans-serif;color: #02aaf0;">
-            Services
-          </h6>
-          <h2 class="pt-3">How it Works</h2>
+          <h2 class="pt-3">Our Softwares</h2>
           <div class="row" id="pad-btn">
             <div class="col-sm">
-              <button class="btn rounded actives ">
-                Next gen Software
+              <button
+                id="btn-1"
+                class="btn rounded actives"
+                onclick="nextgen()"
+              >
+                RCAM
               </button>
             </div>
             <div class="col-sm">
-              <button class="btn rounded  buttons ">
-                Performance
+              <button
+                id="btn-2"
+                class="btn rounded  buttons "
+                onclick="performance()"
+              >
+                XBRL
               </button>
             </div>
             <div class="col-sm">
-              <button class="btn rounded buttons ">
-                Effectiveness
+              <button
+                id="btn-3"
+                class="btn rounded buttons "
+                onclick="effectiveness()"
+              >
+                IndASOnline
               </button>
             </div>
           </div>
         </div>
         <div class="row text-center demo">
           <div class="col-sm animated fadeInUp textas">
-            <img class="deo" src="assets/images/dashboard_full_1.webp" />
+            <img
+              id="how-img"
+              class="deo"
+              src="assets/images/dashboard_full_1.webp"
+            />
           </div>
           <div
             class="col-sm animated fadeInUp  textas"
             style="padding-top: 20px"
           >
-            <div>
+            <div id="soft-text">
               <h3 style="font-family: 'Poppins', sans-serif;">
-                Next gen Software
+                Features of RCAM
               </h3>
-              <p style="padding-top: 25px" class="text-muted">
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts. Separated
-                they live in Bookmarksgrove right at the coast of the Semantics,
-                a large language ocean.
-              </p>
-              <p class="text-muted">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Nesciunt voluptate, quibusdam sunt iste dolores consequatur
-              </p>
+              <ul class="fa-ul padding-top: 25px">
+                <li>
+                  <i class="fa-li blue-text fa fa-square"></i>Compatible with
+                  any accounting package
+                </li>
+                <li>
+                  <i class="fa-li blue-text fa fa-square"></i> Extensive List of
+                  Chart of accounts for easy mapping.
+                </li>
+                <li>
+                  <i class="fa-li blue-text fa fa-square"></i> Mapping of trial
+                  balance based on master trial balance
+                </li>
+                <li>
+                  <i class="fa-li blue-text fa fa-square"></i>Availability of
+                  Monthly Financial statements
+                </li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="news">
-      <div class="container text-center">
-        <div>
-          <h1 class="text-white animated slideInUp">
-            Subcribe to our Newsletter
-          </h1>
-          <p
-            class="text-white mt-3 mb-5 animated slideInUp"
-            style="font-size: 17px"
-          >
-            Far far away, behind the word mountains, far from the countries
-            Vokalia and <br />
-            Consonantia, there live the blind texts. Separated they live in
-          </p>
-          <div class="search-box mt-3 mb-5 animated slideInUp">
-            <input
-              class="search-txt"
-              type="email"
-              placeholder="Type your Email"
-            />
-            <a href="" class="search-btn"><i class="fas fa-paper-plane"></i></a>
-          </div>
+    <div>
+      <div class="container">
+        <div class="text-center demo">
+          <h2 class="pt-3 pb-5 animated fadeInUp">Incredible Clients</h2>
+          <img id="clients" src="assets/images/clients.png " />
         </div>
       </div>
     </div>
@@ -167,44 +172,59 @@
       <div class="container">
         <div class="row text-white">
           <div class="col-sm">
-            <h5>Rhapsody</h5>
-            <p class="text-white-50 mt-4" style="line-height: 1.8rem">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts.
-            </p>
-            <button class="btn rounded white button">
-              Get in touch
-            </button>
+            <section
+              class="widget widget_startapp_site_info"
+              style="margin-bottom: 10px;padding-bottom: 0;"
+            >
+              <h5 class="pb-4">
+                Our Facebook Widget
+              </h5>
+              <iframe
+                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FIfrsIndia%2F&amp;tabs=timeline&amp;width=340&amp;height=500&amp;small_header=false&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=true&amp;appId=1120143424692005"
+                width="100%"
+                height="250"
+                style="border:none;overflow:hidden"
+                scrolling="no"
+                frameborder="0"
+                allowtransparency="true"
+              ></iframe>
+            </section>
           </div>
           <div class="col-sm">
-            <h5>Rhapsody</h5>
-            <p class="text-white-50 mt-4" style="line-height: 1.8rem">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts.
-            </p>
-            <button class="btn rounded white button">
-              Get in touch
-            </button>
+            <h5 class="pb-4">Important Links</h5>
+            <h6 class="pb-4"><a href="">IFRS</a></h6>
+            <h6 class="pb-4"><a href="">ICAI</a></h6>
+            <h6 class="pb-4"><a href="">ICSI</a></h6>
+            <h6 class="pb-4"><a href="">ICWAI</a></h6>
+            <h6 class="pb-4"><a href="">ACCA Global</a></h6>
           </div>
           <div class="col-sm">
-            <h5>Rhapsody</h5>
-            <p class="text-white-50 mt-4" style="line-height: 1.8rem">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts.
-            </p>
-            <button class="btn rounded white button">
-              Get in touch
-            </button>
+            <h5 class="pb-4">Product Types</h5>
+            <h6 class="pb-4"><a href="">Web Application</a></h6>
+            <h6 class="pb-4"><a href="">Mobile App (Android & iOS)</a></h6>
+            <h6 class="pb-4"><a href="">Desktop Application</a></h6>
+            <h6 class="pb-4"><a href="">API Integration</a></h6>
           </div>
           <div class="col-sm">
-            <h5>Rhapsody</h5>
-            <p class="text-white-50 mt-4" style="line-height: 1.8rem">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts.
-            </p>
-            <button class="btn rounded white button">
-              Get in touch
-            </button>
+            <h5 class="pb-4">Get In Touch</h5>
+            <ul class="fa-ul padding-top: 25px">
+              <li>
+                <i class="fa-li blue-text fas fa-map-marker-alt"></i>B-106,
+                First Floor, Sector - 6, Noida 210301
+              </li>
+              <li>
+                <i class="fa-li blue-text fas fa-mobile-alt"></i> +91 -
+                120-4235138
+              </li>
+              <li>
+                <i class="fa-li blue-text fas fa-envelope"></i>
+                contactus@rhapsody-services.com
+              </li>
+              <li>
+                <i class="fa-li blue-text fas fa-comment"></i
+                >www.rhapsody-services.com
+              </li>
+            </ul>
           </div>
         </div>
       </div>
