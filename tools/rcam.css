@@ -9,7 +9,7 @@ html {
   padding: 0;
   height: 100%;
   width: 100%;
-  font-family: "Titillium Web", Helvetica, Arial, sans-serif;
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
   overflow-x: hidden;
   line-height: 2.5rem;
   background-color: #77aa77;
@@ -35,7 +35,9 @@ html {
 }
 p {
   font-size: 18px;
+  color: rgb(48, 23, 0);
 }
 h2 {
   font-size: 36px;
+  color: white;
 }
