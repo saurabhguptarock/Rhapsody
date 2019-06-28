@@ -22,7 +22,7 @@ li {
   padding: 14.4px 20px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 660px) {
   .logo {
     display: none;
   }
@@ -88,7 +88,7 @@ li {
   color: #0ec60a;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 660px) {
   #lists {
     padding-left: 200px;
   }

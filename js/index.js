@@ -26,8 +26,9 @@ function nextgen() {
 <li>
   <i class="fa-li blue-text fa fa-square"></i>Availability of
   Monthly Financial statements
-</li>`);
+</li><button onclick="rcam()"  id="reas" class="btn buttons">Read More</button>`);
 }
+
 function performance() {
   document.getElementById("how-img").src =
     "assets/images/dashboard_full_2.webp";
@@ -54,8 +55,9 @@ function performance() {
                 <li>
                   <i class="fa-li blue-text fa fa-square"></i>Current and previous year tagging at one go
                 </li>
-                `);
+                <button onclick="xbrl()"   id="reas" class="btn buttons">Read More</button>`);
 }
+
 function effectiveness() {
   document.getElementById("how-img").src = "assets/images/dashboard_full_3.png";
   $("#btn-1")
@@ -79,14 +81,82 @@ function effectiveness() {
 </li>
 <li>
   <i class="fa-li blue-text fa fa-square"></i>Inbuilt Definition linkages from Ind AS, Guidance Notes, Schedule III and Companies Act.
-</li>`);
+</li>
+<button onclick="indasonline()"  id="reas" class="btn buttons">Read More</button>`);
 }
+
 function rcam() {
   location.href = "tools/rcam.html";
 }
+
 function xbrl() {
   location.href = "tools/xbrl.html";
 }
+
 function indasonline() {
   location.href = "tools/indasonline.html";
 }
+
+$("#home").tooltip({
+  title: "Home",
+  placement: "bottom",
+  container: "#home",
+  delay: 200
+});
+
+$("#rcam").tooltip({
+  title:
+    "Consolidation of Group Accounts & Preperation of Finantial Statements Made Easy",
+  container: "#rcam",
+  placement: "bottom",
+  delay: 200
+});
+
+$("#xbrl").tooltip({
+  title: "XBRL Finantial Statement Filling Tool as Per MCA Regulations",
+  container: "#xbrl",
+  placement: "bottom",
+  delay: 200
+});
+
+$("#INDAsOnline").tooltip({
+  title: "EntireInd AS Digitalized & Online with Various Analytical Tools",
+  container: "#INDAsOnline",
+  placement: "bottom",
+  delay: 200
+});
+
+$("#btn-1").tooltip({
+  title:
+    "Consolidation of Group Accounts & Preperation of Finantial Statements Made Easy",
+  container: "#btn-1",
+  placement: "bottom",
+  delay: 200
+});
+
+$("#btn-2").tooltip({
+  title: "XBRL Finantial Statement Filling Tool as Per MCA Regulations",
+  container: "#btn-2",
+  placement: "bottom",
+  delay: 200
+});
+
+$("#btn-3").tooltip({
+  title: "EntireInd AS Digitalized & Online with Various Analytical Tools",
+  placement: "bottom",
+  container: "#btn-3",
+  delay: 200
+});
+
+$("#achievements").tooltip({
+  title: "Achievements",
+  placement: "bottom",
+  container: "#achievements",
+  delay: 200
+});
+$("#reas").tooltip({
+  title: "Read More",
+  placement: "bottom",
+  container: "#reas",
+  delay: 200
+});

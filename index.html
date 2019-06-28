@@ -39,21 +39,21 @@
               <img height="40px" src="assets/images/logo.png" />
             </div>
             <ul id="lists" class="navbar-nav  mr-auto mt-lg-0">
-              <li class="nav-item ">
+              <li class="nav-item " id="home">
                 <a class="nav-link green-text" href="/">Home </a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item" id="rcam">
                 <a class="nav-link black-text" href="/tools/rcam.html">RCAM</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item" id="xbrl">
                 <a class="nav-link black-text" href="/tools/xbrl.html">XBRL</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item" id="INDAsOnline">
                 <a class="nav-link black-text" href="/tools/INDAsOnline.html"
                   >IndASOnline</a
                 >
               </li>
-              <li class="nav-item">
+              <li class="nav-item" id="achievements">
                 <a class="nav-link black-text" href="/achievements.html"
                   >Achievements</a
                 >
@@ -77,6 +77,13 @@
               </h1>
               <h4>Applications</h4>
               <h4>and Solutions</h4>
+              <p
+                class="mt-4"
+                style="font-size:20px;font-weight:400;font-family: 'Poppins', sans-serif;"
+              >
+                We are a one stop solution for your accounting advisory needs,
+                <span class="green-text"> since 2009</span>
+              </p>
             </div>
             <div class="col-sm-8">
               <img class="main-img" src="assets/images/dashboard_full_1.webp" />
@@ -154,6 +161,9 @@
                   <i class="fa-li blue-text fa fa-square"></i>Availability of
                   Monthly Financial statements
                 </li>
+                <button onclick="rcam()" id="reas" class="btn buttons">
+                  Read More
+                </button>
               </ul>
             </div>
           </div>
