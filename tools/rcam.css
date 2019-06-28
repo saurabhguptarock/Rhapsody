@@ -1,6 +1,6 @@
 .check::before {
   content: "✓";
-  color: #2195f4;
+  color: #0ec60a;
   padding: 0 20px 0 0;
 }
 body,
@@ -50,6 +50,9 @@ h2 {
   color: white;
 }
 .foo a:hover {
+  color: #0ec60a;
+}
+i {
   color: #0ec60a;
 }
 @media (min-width: 660px) {
