@@ -47,8 +47,11 @@ li {
   }
   .foo {
     margin-top: 100px;
-    height: 150vh;
-    padding-top: 50px;
+    height: 1400px;
+    padding-top: 30px;
+  }
+  .foo .col-sm {
+    padding-top: 30px;
   }
   .fun-facts {
     height: 120vh;
