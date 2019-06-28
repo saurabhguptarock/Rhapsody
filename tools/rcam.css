@@ -57,7 +57,7 @@ i {
 }
 @media (min-width: 660px) {
   #lists {
-    padding-left: 200px;
+    padding-left: 150px;
   }
   #rhap {
     margin-top: 100px;
@@ -73,7 +73,7 @@ i {
 }
 p {
   font-size: 18px;
-  color: rgb(48, 23, 0);
+  color: #6c757d;
 }
 h2 {
   font-size: 36px;

@@ -154,9 +154,18 @@ $("#achievements").tooltip({
   container: "#achievements",
   delay: 200
 });
+$("#about").tooltip({
+  title: "About Us",
+  placement: "bottom",
+  container: "#about",
+  delay: 200
+});
 $("#reas").tooltip({
   title: "Read More",
   placement: "bottom",
   container: "#reas",
   delay: 200
 });
+function logo() {
+  location.href = "/";
+}
