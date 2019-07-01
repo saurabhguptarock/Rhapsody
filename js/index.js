@@ -166,6 +166,12 @@ $("#reas").tooltip({
   container: "#reas",
   delay: 200
 });
+$("#contact").tooltip({
+  title: "Contact Us",
+  placement: "bottom",
+  container: "#contact",
+  delay: 200
+});
 function logo() {
   location.href = "/";
 }

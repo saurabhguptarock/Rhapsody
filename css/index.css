@@ -90,7 +90,7 @@ li {
 
 @media (min-width: 660px) {
   #lists {
-    padding-left: 150px;
+    padding-left: 80px;
   }
   .deo {
     height: 400px;
