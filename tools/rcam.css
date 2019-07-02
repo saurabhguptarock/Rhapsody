@@ -42,6 +42,9 @@ h2 {
   .foo .col-sm {
     padding-top: 30px;
   }
+  .contact-form {
+    padding-top: 50px;
+  }
 }
 .foo {
   background-image: url("../assets/images/Footer.jpg");
