@@ -10,23 +10,128 @@ function nextgen() {
   $("#btn-3")
     .removeClass("actives")
     .addClass("buttons");
-  $("#soft-text h3").html("Features of RCAM");
-  $("#soft-text ul").html(`<li>
-  <i class="fa-li blue-text fa fa-square"></i>Compatible with
-  any accounting package
-</li>
-<li>
-  <i class="fa-li blue-text fa fa-square"></i> Extensive List of
-  Chart of accounts for easy mapping.
-</li>
-<li>
-  <i class="fa-li blue-text fa fa-square"></i> Mapping of trial
-  balance based on master trial balance
-</li>
-<li>
-  <i class="fa-li blue-text fa fa-square"></i>Availability of
-  Monthly Financial statements
-</li><button onclick="rcam()"  id="reas" class="btn buttons">Read More</button>`);
+  $("#asddasas").html(`<div class="row text-center demo">
+  <div class="col-sm animated fadeInUp textas">
+    <img
+      id="how-img"
+      class="deo"
+      src="assets/images/dashboard_full_1.webp"
+    />
+  </div>
+  <div
+    class="col-sm animated fadeInUp  textas"
+    style="padding-top: 20px"
+  >
+    <div id="soft-text">
+      <h3 style="font-family: 'Alike', sans-serif;">
+        Features of RCAM
+      </h3>
+      <ul class="fa-ul padding-top: 25px">
+        <li>
+          <i class="fa-li blue-text fa fa-square"></i>Compatible with
+          any accounting package
+        </li>
+        <li>
+          <i class="fa-li blue-text fa fa-square"></i> Extensive List
+          of Chart of accounts for easy mapping.
+        </li>
+        <li>
+          <i class="fa-li blue-text fa fa-square"></i> Mapping of
+          trial balance based on master trial balance
+        </li>
+        <li>
+          <i class="fa-li blue-text fa fa-square"></i>Availability of
+          Monthly Financial statements
+        </li>
+        <button onclick="rcam()" id="reas" class="btn mt-5 buttonss">
+          Read More
+        </button>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="row text-center demo">
+  <div
+    class="col-sm animated fadeInUp  textas"
+    style="padding-top: 20px"
+  >
+    <div id="soft-text">
+      <h3 style="font-family: 'Alike', sans-serif;">
+        Features of XBRL
+      </h3>
+      <ul class="fa-ul padding-top: 25px">
+        <li>
+          <i class="fa-li blue-text fa fa-square"></i>User-friendly,
+          tag, ungag, edit features
+        </li>
+        <li>
+          <i class="fa-li blue-text fa fa-square"></i> Flexible data
+          inputs (Direct copy paste from excel and by type also)
+        </li>
+        <li>
+          <i class="fa-li blue-text fa fa-square"></i> Inbuilt
+          calculation link base for auto totaling
+        </li>
+        <li>
+          <i class="fa-li blue-text fa fa-square"></i>Current and
+          previous year tagging at one go
+        </li>
+        <button onclick="xbrl()" id="reas" class="btn mt-5 buttonss">
+          Read More
+        </button>
+      </ul>
+    </div>
+  </div>
+  <div class="col-sm animated fadeInUp textas">
+    <img
+      id="how-img"
+      class="deo"
+      src="assets/images/dashboard_full_2.webp"
+    />
+  </div>
+</div>
+<div class="row text-center demo">
+  <div class="col-sm animated fadeInUp textas">
+    <img
+      id="how-img"
+      class="deo"
+      src="assets/images/dashboard_full_3.png"
+    />
+  </div>
+  <div
+    class="col-sm animated fadeInUp  textas"
+    style="padding-top: 20px"
+  >
+    <div id="soft-text">
+      <h3 style="font-family: 'Alike', sans-serif;">
+        Features of IndAsOnline
+      </h3>
+      <ul class="fa-ul padding-top: 25px">
+        <li>
+          <i class="fa-li blue-text fa fa-square"></i>FAQ’s, EAC
+          opinions and ITFG bulletins arranged in a systematic manner.
+        </li>
+        <li>
+          <i class="fa-li blue-text fa fa-square"></i> All Ind AS’s
+          presented in a very user-friendly and efficient manner.
+        </li>
+        <li>
+          <i class="fa-li blue-text fa fa-square"></i>Approx. 1000 Ind
+          AS/IFRS financial statements of listed and other companies
+          for reference.
+        </li>
+        <li>
+          <i class="fa-li blue-text fa fa-square"></i>Inbuilt
+          Definition linkages from Ind AS, Guidance Notes, Schedule
+          III and Companies Act.
+        </li>
+        <button onclick="indasonline()" id="reas" class="btn mt-5 buttonss">
+          Read More
+        </button>
+      </ul>
+    </div>
+  </div>
+</div>`);
 }
 
 function performance() {
@@ -41,21 +146,129 @@ function performance() {
   $("#btn-3")
     .removeClass("actives")
     .addClass("buttons");
-  $("#soft-text h3").html("Features of XBRL");
-  $("#soft-text ul").html(`
-  <li>
-                  <i class="fa-li blue-text fa fa-square"></i>User-friendly, tag, ungag, edit features
-                </li>
-                <li>
-                  <i class="fa-li blue-text fa fa-square"></i> Flexible data inputs (Direct copy paste from excel and by type also)
-                </li>
-                <li>
-                  <i class="fa-li blue-text fa fa-square"></i> Inbuilt calculation link base for auto totaling
-                </li>
-                <li>
-                  <i class="fa-li blue-text fa fa-square"></i>Current and previous year tagging at one go
-                </li>
-                <button onclick="xbrl()"   id="reas" class="btn buttons">Read More</button>`);
+  $("#asddasas").html(`
+  <div class="row text-center demo">
+  <div class="col-sm animated fadeInUp textas">
+      <img
+        id="how-img"
+        class="deo"
+        src="assets/images/dashboard_full_2.webp"
+      />
+    </div>
+    <div
+      class="col-sm animated fadeInUp  textas"
+      style="padding-top: 20px"
+    >
+      <div id="soft-text">
+        <h3 style="font-family: 'Alike', sans-serif;">
+          Features of XBRL
+        </h3>
+        <ul class="fa-ul padding-top: 25px">
+          <li>
+            <i class="fa-li blue-text fa fa-square"></i>User-friendly,
+            tag, ungag, edit features
+          </li>
+          <li>
+            <i class="fa-li blue-text fa fa-square"></i> Flexible data
+            inputs (Direct copy paste from excel and by type also)
+          </li>
+          <li>
+            <i class="fa-li blue-text fa fa-square"></i> Inbuilt
+            calculation link base for auto totaling
+          </li>
+          <li>
+            <i class="fa-li blue-text fa fa-square"></i>Current and
+            previous year tagging at one go
+          </li>
+          <button onclick="xbrl()" id="reas" class="btn mt-5 buttonss">
+            Read More
+          </button>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="row text-center demo">
+    <div
+      class="col-sm animated fadeInUp  textas"
+      style="padding-top: 20px"
+    >
+      <div id="soft-text">
+        <h3 style="font-family: 'Alike', sans-serif;">
+          Features of RCAM
+        </h3>
+        <ul class="fa-ul padding-top: 25px">
+          <li>
+            <i class="fa-li blue-text fa fa-square"></i>Compatible with
+            any accounting package
+          </li>
+          <li>
+            <i class="fa-li blue-text fa fa-square"></i> Extensive List
+            of Chart of accounts for easy mapping.
+          </li>
+          <li>
+            <i class="fa-li blue-text fa fa-square"></i> Mapping of
+            trial balance based on master trial balance
+          </li>
+          <li>
+            <i class="fa-li blue-text fa fa-square"></i>Availability of
+            Monthly Financial statements
+          </li>
+          <button onclick="rcam()" id="reas" class="btn mt-5 buttonss">
+            Read More
+          </button>
+        </ul>
+      </div>
+    </div>
+    <div class="col-sm animated fadeInUp textas">
+      <img
+        id="how-img"
+        class="deo"
+        src="assets/images/dashboard_full_1.webp"
+      />
+    </div>
+  </div>
+  <div class="row text-center demo">
+    <div class="col-sm animated fadeInUp textas">
+      <img
+        id="how-img"
+        class="deo"
+        src="assets/images/dashboard_full_3.png"
+      />
+    </div>
+    <div
+      class="col-sm animated fadeInUp  textas"
+      style="padding-top: 20px"
+    >
+      <div id="soft-text">
+        <h3 style="font-family: 'Alike', sans-serif;">
+          Features of IndAsOnline
+        </h3>
+        <ul class="fa-ul padding-top: 25px">
+          <li>
+            <i class="fa-li blue-text fa fa-square"></i>FAQ’s, EAC
+            opinions and ITFG bulletins arranged in a systematic manner.
+          </li>
+          <li>
+            <i class="fa-li blue-text fa fa-square"></i> All Ind AS’s
+            presented in a very user-friendly and efficient manner.
+          </li>
+          <li>
+            <i class="fa-li blue-text fa fa-square"></i>Approx. 1000 Ind
+            AS/IFRS financial statements of listed and other companies
+            for reference.
+          </li>
+          <li>
+            <i class="fa-li blue-text fa fa-square"></i>Inbuilt
+            Definition linkages from Ind AS, Guidance Notes, Schedule
+            III and Companies Act.
+          </li>
+          <button onclick="indasonline()" id="reas" class="btn mt-5 buttonss">
+            Read More
+          </button>
+        </ul>
+      </div>
+    </div>
+  </div>`);
 }
 
 function effectiveness() {
@@ -69,20 +282,128 @@ function effectiveness() {
   $("#btn-3")
     .addClass("actives")
     .removeClass("buttons");
-  $("#soft-text h3").html("Features of IndAsOnline");
-  $("#soft-text ul").html(` <li>
-  <i class="fa-li blue-text fa fa-square"></i>FAQ’s, EAC opinions and ITFG bulletins arranged in a systematic manner.
-</li>
-<li>
-  <i class="fa-li blue-text fa fa-square"></i> All Ind AS’s presented in a very user-friendly and efficient manner.
-</li>
-<li>
-  <i class="fa-li blue-text fa fa-square"></i>Approx. 1000 Ind AS/IFRS financial statements of listed and other companies for reference.
-</li>
-<li>
-  <i class="fa-li blue-text fa fa-square"></i>Inbuilt Definition linkages from Ind AS, Guidance Notes, Schedule III and Companies Act.
-</li>
-<button onclick="indasonline()"  id="reas" class="btn buttons">Read More</button>`);
+  $("#asddasas").html(`
+  <div class="row text-center demo">
+    <div class="col-sm animated fadeInUp textas">
+      <img
+        id="how-img"
+        class="deo"
+        src="assets/images/dashboard_full_3.png"
+      />
+    </div>
+    <div
+      class="col-sm animated fadeInUp  textas"
+      style="padding-top: 20px"
+    >
+      <div id="soft-text">
+        <h3 style="font-family: 'Alike', sans-serif;">
+          Features of IndAsOnline
+        </h3>
+        <ul class="fa-ul padding-top: 25px">
+          <li>
+            <i class="fa-li blue-text fa fa-square"></i>FAQ’s, EAC
+            opinions and ITFG bulletins arranged in a systematic manner.
+          </li>
+          <li>
+            <i class="fa-li blue-text fa fa-square"></i> All Ind AS’s
+            presented in a very user-friendly and efficient manner.
+          </li>
+          <li>
+            <i class="fa-li blue-text fa fa-square"></i>Approx. 1000 Ind
+            AS/IFRS financial statements of listed and other companies
+            for reference.
+          </li>
+          <li>
+            <i class="fa-li blue-text fa fa-square"></i>Inbuilt
+            Definition linkages from Ind AS, Guidance Notes, Schedule
+            III and Companies Act.
+          </li>
+          <button onclick="indasonline()" id="reas" class="btn mt-5 buttonss">
+            Read More
+          </button>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="row text-center demo">
+    <div
+      class="col-sm animated fadeInUp  textas"
+      style="padding-top: 20px"
+    >
+      <div id="soft-text">
+        <h3 style="font-family: 'Alike', sans-serif;">
+          Features of RCAM
+        </h3>
+        <ul class="fa-ul padding-top: 25px">
+          <li>
+            <i class="fa-li blue-text fa fa-square"></i>Compatible with
+            any accounting package
+          </li>
+          <li>
+            <i class="fa-li blue-text fa fa-square"></i> Extensive List
+            of Chart of accounts for easy mapping.
+          </li>
+          <li>
+            <i class="fa-li blue-text fa fa-square"></i> Mapping of
+            trial balance based on master trial balance
+          </li>
+          <li>
+            <i class="fa-li blue-text fa fa-square"></i>Availability of
+            Monthly Financial statements
+          </li>
+          <button onclick="rcam()" id="reas" class="btn mt-5 buttonss">
+            Read More
+          </button>
+        </ul>
+      </div>
+    </div><div class="col-sm animated fadeInUp textas">
+    <img
+      id="how-img"
+      class="deo"
+      src="assets/images/dashboard_full_1.webp"
+    />
+  </div>
+  </div>
+  <div class="row text-center demo"><div class="col-sm animated fadeInUp textas">
+  <img
+    id="how-img"
+    class="deo"
+    src="assets/images/dashboard_full_2.webp"
+  />
+</div>
+    <div
+      class="col-sm animated fadeInUp  textas"
+      style="padding-top: 20px"
+    >
+      <div id="soft-text">
+        <h3 style="font-family: 'Alike', sans-serif;">
+          Features of XBRL
+        </h3>
+        <ul class="fa-ul padding-top: 25px">
+          <li>
+            <i class="fa-li blue-text fa fa-square"></i>User-friendly,
+            tag, ungag, edit features
+          </li>
+          <li>
+            <i class="fa-li blue-text fa fa-square"></i> Flexible data
+            inputs (Direct copy paste from excel and by type also)
+          </li>
+          <li>
+            <i class="fa-li blue-text fa fa-square"></i> Inbuilt
+            calculation link base for auto totaling
+          </li>
+          <li>
+            <i class="fa-li blue-text fa fa-square"></i>Current and
+            previous year tagging at one go
+          </li>
+          <button onclick="xbrl()" id="reas" class="btn mt-5 buttonss">
+            Read More
+          </button>
+        </ul>
+      </div>
+    </div>
+  </div>
+  `);
 }
 
 function rcam() {
@@ -96,13 +417,6 @@ function xbrl() {
 function indasonline() {
   location.href = "tools/indasonline.html";
 }
-
-$("#home").tooltip({
-  title: "Home",
-  placement: "bottom",
-  container: "#home",
-  delay: 200
-});
 
 $("#rcam").tooltip({
   title:
@@ -123,53 +437,6 @@ $("#INDAsOnline").tooltip({
   title: "EntireInd AS Digitalized & Online with Various Analytical Tools",
   container: "#INDAsOnline",
   placement: "bottom",
-  delay: 200
-});
-
-$("#btn-1").tooltip({
-  title:
-    "Consolidation of Group Accounts & Preperation of Finantial Statements Made Easy",
-  container: "#btn-1",
-  placement: "bottom",
-  delay: 200
-});
-
-$("#btn-2").tooltip({
-  title: "XBRL Finantial Statement Filling Tool as Per MCA Regulations",
-  container: "#btn-2",
-  placement: "bottom",
-  delay: 200
-});
-
-$("#btn-3").tooltip({
-  title: "EntireInd AS Digitalized & Online with Various Analytical Tools",
-  placement: "bottom",
-  container: "#btn-3",
-  delay: 200
-});
-
-$("#achievements").tooltip({
-  title: "Achievements",
-  placement: "bottom",
-  container: "#achievements",
-  delay: 200
-});
-$("#about").tooltip({
-  title: "About Us",
-  placement: "bottom",
-  container: "#about",
-  delay: 200
-});
-$("#reas").tooltip({
-  title: "Read More",
-  placement: "bottom",
-  container: "#reas",
-  delay: 200
-});
-$("#contact").tooltip({
-  title: "Contact Us",
-  placement: "bottom",
-  container: "#contact",
   delay: 200
 });
 function logo() {
