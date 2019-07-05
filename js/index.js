@@ -23,7 +23,7 @@ function nextgen() {
     style="padding-top: 20px"
   >
     <div id="soft-text">
-      <h3 style="font-family: 'Alike', sans-serif;">
+      <h3 style="font-family: 'Gotha', sans-serif;">
         Features of RCAM
       </h3>
       <ul class="fa-ul padding-top: 25px">
@@ -56,7 +56,7 @@ function nextgen() {
     style="padding-top: 20px"
   >
     <div id="soft-text">
-      <h3 style="font-family: 'Alike', sans-serif;">
+      <h3 style="font-family: 'Gotha', sans-serif;">
         Features of XBRL
       </h3>
       <ul class="fa-ul padding-top: 25px">
@@ -103,7 +103,7 @@ function nextgen() {
     style="padding-top: 20px"
   >
     <div id="soft-text">
-      <h3 style="font-family: 'Alike', sans-serif;">
+      <h3 style="font-family: 'Gotha', sans-serif;">
         Features of IndAsOnline
       </h3>
       <ul class="fa-ul padding-top: 25px">
@@ -160,7 +160,7 @@ function performance() {
       style="padding-top: 20px"
     >
       <div id="soft-text">
-        <h3 style="font-family: 'Alike', sans-serif;">
+        <h3 style="font-family: 'Gotha', sans-serif;">
           Features of XBRL
         </h3>
         <ul class="fa-ul padding-top: 25px">
@@ -193,7 +193,7 @@ function performance() {
       style="padding-top: 20px"
     >
       <div id="soft-text">
-        <h3 style="font-family: 'Alike', sans-serif;">
+        <h3 style="font-family: 'Gotha', sans-serif;">
           Features of RCAM
         </h3>
         <ul class="fa-ul padding-top: 25px">
@@ -240,7 +240,7 @@ function performance() {
       style="padding-top: 20px"
     >
       <div id="soft-text">
-        <h3 style="font-family: 'Alike', sans-serif;">
+        <h3 style="font-family: 'Gotha', sans-serif;">
           Features of IndAsOnline
         </h3>
         <ul class="fa-ul padding-top: 25px">
@@ -296,7 +296,7 @@ function effectiveness() {
       style="padding-top: 20px"
     >
       <div id="soft-text">
-        <h3 style="font-family: 'Alike', sans-serif;">
+        <h3 style="font-family: 'Gotha', sans-serif;">
           Features of IndAsOnline
         </h3>
         <ul class="fa-ul padding-top: 25px">
@@ -331,7 +331,7 @@ function effectiveness() {
       style="padding-top: 20px"
     >
       <div id="soft-text">
-        <h3 style="font-family: 'Alike', sans-serif;">
+        <h3 style="font-family: 'Gotha', sans-serif;">
           Features of RCAM
         </h3>
         <ul class="fa-ul padding-top: 25px">
@@ -376,7 +376,7 @@ function effectiveness() {
       style="padding-top: 20px"
     >
       <div id="soft-text">
-        <h3 style="font-family: 'Alike', sans-serif;">
+        <h3 style="font-family: 'Gotha', sans-serif;">
           Features of XBRL
         </h3>
         <ul class="fa-ul padding-top: 25px">
