@@ -1,6 +1,5 @@
 function nextgen() {
-  document.getElementById("how-img").src =
-    "assets/images/dashboard_full_1.webp";
+  document.getElementById("how-img").src = "assets/images/dashboard_full_1.png";
   $("#btn-1")
     .addClass("actives")
     .removeClass("buttons");
@@ -15,7 +14,7 @@ function nextgen() {
     <img
       id="how-img"
       class="deo"
-      src="assets/images/dashboard_full_1.webp"
+      src="assets/images/dashboard_full_1.png"
     />
   </div>
   <div
@@ -23,7 +22,7 @@ function nextgen() {
     style="padding-top: 20px"
   >
     <div id="soft-text">
-      <h3 style="font-family: 'Gotha', sans-serif;">
+      <h3 style="font-family: 'Alike', sans-serif;">
         Features of RCAM
       </h3>
       <ul class="fa-ul padding-top: 25px">
@@ -56,7 +55,7 @@ function nextgen() {
     style="padding-top: 20px"
   >
     <div id="soft-text">
-      <h3 style="font-family: 'Gotha', sans-serif;">
+      <h3 style="font-family: 'Alike', sans-serif;">
         Features of XBRL
       </h3>
       <ul class="fa-ul padding-top: 25px">
@@ -86,7 +85,7 @@ function nextgen() {
     <img
       id="how-img"
       class="deo"
-      src="assets/images/dashboard_full_2.webp"
+      src="assets/images/dashboard_full_2.png"
     />
   </div>
 </div>
@@ -103,8 +102,8 @@ function nextgen() {
     style="padding-top: 20px"
   >
     <div id="soft-text">
-      <h3 style="font-family: 'Gotha', sans-serif;">
-        Features of IndAsOnline
+      <h3 style="font-family: 'Alike', sans-serif;">
+        Features of eContract
       </h3>
       <ul class="fa-ul padding-top: 25px">
         <li>
@@ -125,7 +124,7 @@ function nextgen() {
           Definition linkages from Ind AS, Guidance Notes, Schedule
           III and Companies Act.
         </li>
-        <button onclick="indasonline()" id="reas" class="btn mt-5 buttonss">
+        <button onclick="eContract()" id="reas" class="btn mt-5 buttonss">
           Read More
         </button>
       </ul>
@@ -135,8 +134,7 @@ function nextgen() {
 }
 
 function performance() {
-  document.getElementById("how-img").src =
-    "assets/images/dashboard_full_2.webp";
+  document.getElementById("how-img").src = "assets/images/dashboard_full_2.png";
   $("#btn-1")
     .removeClass("actives")
     .addClass("buttons");
@@ -152,7 +150,7 @@ function performance() {
       <img
         id="how-img"
         class="deo"
-        src="assets/images/dashboard_full_2.webp"
+        src="assets/images/dashboard_full_2.png"
       />
     </div>
     <div
@@ -160,7 +158,7 @@ function performance() {
       style="padding-top: 20px"
     >
       <div id="soft-text">
-        <h3 style="font-family: 'Gotha', sans-serif;">
+        <h3 style="font-family: 'Alike', sans-serif;">
           Features of XBRL
         </h3>
         <ul class="fa-ul padding-top: 25px">
@@ -193,7 +191,7 @@ function performance() {
       style="padding-top: 20px"
     >
       <div id="soft-text">
-        <h3 style="font-family: 'Gotha', sans-serif;">
+        <h3 style="font-family: 'Alike', sans-serif;">
           Features of RCAM
         </h3>
         <ul class="fa-ul padding-top: 25px">
@@ -223,7 +221,7 @@ function performance() {
       <img
         id="how-img"
         class="deo"
-        src="assets/images/dashboard_full_1.webp"
+        src="assets/images/dashboard_full_1.png"
       />
     </div>
   </div>
@@ -240,8 +238,8 @@ function performance() {
       style="padding-top: 20px"
     >
       <div id="soft-text">
-        <h3 style="font-family: 'Gotha', sans-serif;">
-          Features of IndAsOnline
+        <h3 style="font-family: 'Alike', sans-serif;">
+          Features of eContract
         </h3>
         <ul class="fa-ul padding-top: 25px">
           <li>
@@ -262,7 +260,7 @@ function performance() {
             Definition linkages from Ind AS, Guidance Notes, Schedule
             III and Companies Act.
           </li>
-          <button onclick="indasonline()" id="reas" class="btn mt-5 buttonss">
+          <button onclick="eContract()" id="reas" class="btn mt-5 buttonss">
             Read More
           </button>
         </ul>
@@ -296,8 +294,8 @@ function effectiveness() {
       style="padding-top: 20px"
     >
       <div id="soft-text">
-        <h3 style="font-family: 'Gotha', sans-serif;">
-          Features of IndAsOnline
+        <h3 style="font-family: 'Alike', sans-serif;">
+          Features of eContract
         </h3>
         <ul class="fa-ul padding-top: 25px">
           <li>
@@ -318,7 +316,7 @@ function effectiveness() {
             Definition linkages from Ind AS, Guidance Notes, Schedule
             III and Companies Act.
           </li>
-          <button onclick="indasonline()" id="reas" class="btn mt-5 buttonss">
+          <button onclick="eContract()" id="reas" class="btn mt-5 buttonss">
             Read More
           </button>
         </ul>
@@ -331,7 +329,7 @@ function effectiveness() {
       style="padding-top: 20px"
     >
       <div id="soft-text">
-        <h3 style="font-family: 'Gotha', sans-serif;">
+        <h3 style="font-family: 'Alike', sans-serif;">
           Features of RCAM
         </h3>
         <ul class="fa-ul padding-top: 25px">
@@ -360,7 +358,7 @@ function effectiveness() {
     <img
       id="how-img"
       class="deo"
-      src="assets/images/dashboard_full_1.webp"
+      src="assets/images/dashboard_full_1.png"
     />
   </div>
   </div>
@@ -368,7 +366,7 @@ function effectiveness() {
   <img
     id="how-img"
     class="deo"
-    src="assets/images/dashboard_full_2.webp"
+    src="assets/images/dashboard_full_2.png"
   />
 </div>
     <div
@@ -376,7 +374,7 @@ function effectiveness() {
       style="padding-top: 20px"
     >
       <div id="soft-text">
-        <h3 style="font-family: 'Gotha', sans-serif;">
+        <h3 style="font-family: 'Alike', sans-serif;">
           Features of XBRL
         </h3>
         <ul class="fa-ul padding-top: 25px">
@@ -414,8 +412,8 @@ function xbrl() {
   location.href = "tools/xbrl.html";
 }
 
-function indasonline() {
-  location.href = "tools/indasonline.html";
+function eContract() {
+  location.href = "tools/eContract.html";
 }
 
 $("#rcam").tooltip({
@@ -433,9 +431,9 @@ $("#xbrl").tooltip({
   delay: 200
 });
 
-$("#INDAsOnline").tooltip({
-  title: "EntireInd AS Digitalized & Online with Various Analytical Tools",
-  container: "#INDAsOnline",
+$("#eContract").tooltip({
+  title: "Online Contract Management Tool.",
+  container: "#eContract",
   placement: "bottom",
   delay: 200
 });
